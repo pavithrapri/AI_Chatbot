@@ -3,7 +3,7 @@
 
 # COMPLETE DJANGO CHATBOT SETUP GUIDE
 
-# 1. CREATE PROJECT STRUCTURE
+* 1. CREATE PROJECT STRUCTURE
 mkdir django_chatbot
 cd django_chatbot
 
