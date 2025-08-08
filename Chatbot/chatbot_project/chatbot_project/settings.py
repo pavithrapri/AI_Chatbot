@@ -7,7 +7,7 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('SECRET_KEY', 'mf$dtze)n(*w&my^9+$ttymnualqj*dc*@5w-&=y9j644sis9a')
+SECRET_KEY = os.getenv('SECRET_KEY', 'Your_Secret_Key')
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = ['*']
 
@@ -83,4 +83,5 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Groq API Configuration
+
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
