@@ -1,8 +1,7 @@
 # AI_Chatbot
 
-# =====================================
+
 # COMPLETE DJANGO CHATBOT SETUP GUIDE
-# =====================================
 
 # 1. CREATE PROJECT STRUCTURE
 mkdir django_chatbot
